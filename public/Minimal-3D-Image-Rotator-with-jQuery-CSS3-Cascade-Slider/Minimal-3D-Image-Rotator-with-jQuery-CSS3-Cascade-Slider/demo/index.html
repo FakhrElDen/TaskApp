@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+      <div class="cascade-slider_container" id="cascade-slider">
+        <div class="cascade-slider_slides">
+          <div class="cascade-slider_item">
+            <h3>Pic 1</h3>
+            <img src="https://placeimg.com/329/280/animals" alt="">
+          </div>
+          <div class="cascade-slider_item">
+            <h3>Pic 2</h3>
+            <img src="https://placeimg.com/329/280/arch" alt="">
+          </div>
+          <div class="cascade-slider_item">
+            <h3>Pic 3</h3>
+            <img src="https://placeimg.com/329/280/nature" alt="">
+          </div>
+          <div class="cascade-slider_item">
+            <h3>Pic 4</h3>
+            <img src="https://placeimg.com/329/280/people" alt="">
+          </div>
+          <div class="cascade-slider_item">
+            <h3>Pic 5</h3>
+            <img src="https://placeimg.com/329/280/tech" alt="">
+          </div>
+          <div class="cascade-slider_item">
+            <h3>Pic 6</h3>
+            <img src="https://placeimg.com/329/280/sepia" alt="">
+          </div>
+        </div>
+
+        <ol class="cascade-slider_nav">
+          <li class="cascade-slider_dot cur"></li>
+          <li class="cascade-slider_dot"></li>
+          <li class="cascade-slider_dot"></li>
+          <li class="cascade-slider_dot"></li>
+          <li class="cascade-slider_dot"></li>
+          <li class="cascade-slider_dot"></li>
+        </ol>
+
+        <span class="cascade-slider_arrow cascade-slider_arrow-left" data-action="prev">Prev</span>
+        <span class="cascade-slider_arrow cascade-slider_arrow-right" data-action="next">Next</span>
+      </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../cascade-slider.js"></script>
+
+    <script>
+      $('#cascade-slider').cascadeSlider({
+
+      });
+    </script>
+  </body>
+
+</html>
